@@ -5,6 +5,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <ncurses.h>
+#include <time.h>
 
 class Human
 {
@@ -33,5 +34,8 @@ void    printRules();
 void    printMenu();
 int     play();
 int     playScene1(int sc);
+int     playScene2(Human &my_humans);
+int     playScence2_2();
+int     fight(Human &my_human);
 
 #endif

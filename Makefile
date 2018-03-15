@@ -1,7 +1,8 @@
-SRC	=	src/test.cpp\
+SRC	=	src/main.cpp\
 		src/human.cpp\
 		src/print.cpp\
-		src/game.cpp	
+		src/game.cpp\
+		src/fight.cpp	
 
 OBJS		=	$(SRC:.cpp=.o)
 
@@ -11,7 +12,7 @@ CC	=	g++
 
 INCL	=	-I include/
 
-NAME	=	test
+NAME	=	humain_game
 
 all: $(NAME)
 
