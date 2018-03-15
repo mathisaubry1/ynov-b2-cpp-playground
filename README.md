@@ -1,3 +1,5 @@
 # YNOV INGESUP B2 CPP Playground 
 
-Do whatever you can. Push when you are ready
+Human game by Mathis AUBRY Ingésup B2
+Nécéssite la librairie ncurses pour fonctionner.
+Le programme doit être lancé dans un terminal.
