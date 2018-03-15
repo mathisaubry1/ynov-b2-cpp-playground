@@ -37,5 +37,12 @@ int     playScene1(int sc);
 int     playScene2(Human &my_humans);
 int     playScence2_2();
 int     fight(Human &my_human);
+Human   getNextOpponent();
+int     punch(Human &puncher, Human &target);
+void    printVictory(Human &my_human);
+void    printLose(Human &my_human);
+void    printLife(Human &my_human, Human &opponent, int x, int y);
+void    printFight(Human &my_human, Human &opponent);
+void    printPunch(Human &my_human, Human &opponent, int round, int x, int y);
 
 #endif
